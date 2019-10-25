@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/cli": "^7.6.4",
     "polished": "^3.4.1",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
@@ -11,14 +12,13 @@
     "styled-components": "^4.4.0"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "BABEL_ENV=production babel src -d dist",
+    "prepare": "npm run build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public",
-    "chromatic": "CHROMATIC_APP_CODE=txaf46z3njk chromatic",
-    "build-storybook-docs": "build-storybook -s public --docs"
+    "yarn build-storybook": "build-storybook -s public",
+    "build-storybook-docs": "build-storybook -s public --docs",
+    "release": "auto shipit"
   },
   "eslintConfig": {
     "extends": "react-app"
