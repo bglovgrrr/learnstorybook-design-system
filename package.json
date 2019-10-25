@@ -1,7 +1,7 @@
 {
   "name": "bglover-learnstorybook-design-system",
   "version": "0.1.1",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@babel/cli": "^7.6.4",
     "polished": "^3.4.1",
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "build": "BABEL_ENV=production babel src -d dist",
-    "prepare": "npm run byaruild",
+    "prepare": "npm run build",
     "test": "react-scripts test",
     "storybook": "start-storybook -p 9009 -s public",
     "yarn build-storybook": "build-storybook -s public",
@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@auto-it/first-time-contributor": "^7.12.3",
     "@babel/cli": "^7.6.4",
     "@storybook/addon-a11y": "^5.2.5",
     "@storybook/addon-actions": "^5.2.5",
