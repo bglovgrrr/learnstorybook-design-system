@@ -1,5 +1,17 @@
 # v0.1.2 (Fri Oct 25 2019)
 
+#### ⚠️  Pushed to master
+
+- clean up  (bglover@aus-bglover-m.local)
+
+#### Authors: 1
+
+- Brian Glover (bglover@aus-bglover-m.local)
+
+---
+
+# v0.1.2 (Fri Oct 25 2019)
+
 
 
 ---
