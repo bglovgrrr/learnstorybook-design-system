@@ -53,9 +53,9 @@
     "prettier": "^1.18.2",
     "storybook-chromatic": "^2.2.2"
   },
-  "description": "Learning storybook design system",
+  "description": "Learning Storybook design system",
   "main": "dist/index.js",
-  "repository": "git@github.com:bglovgrrr/learnstorybook-design-system.git",
-  "author": "Brian Glover<mrbrianglover@gmail.com>",
+  "repository": "https://github.com/bglover/learnstorybook-design-system.git",
+  "author": "Trian Glover <mrbrianglover@gmail.com>",
   "license": "MIT"
 }

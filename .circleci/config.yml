@@ -23,4 +23,9 @@ jobs:
 
       - run: yarn test
       - run: yarn chromatic test -a txaf46z3njk --exit-zero-on-changes
-      - run: '[ $CIRCLE_BRANCH = "master" ] && yarn release'
+      - run: |
+          if [ $CIRCLE_BRANCH = "master" ]
+          then
+            yarn release
+          fi
+
