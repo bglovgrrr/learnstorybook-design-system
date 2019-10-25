@@ -11,34 +11,34 @@ export const background = {
 
 export const color = {
   // Palette
-  primary: "#FF4785", // coral
-  secondary: "#1EA7FD", // ocean
-  tertiary: "#DDDDDD",
+  primary: "#0069FF", // blue
+  secondary: "#8C42FF", // purp
+  tertiary: "#CAD6E0",
 
-  orange: "#FC521F",
-  gold: "#FFAE00",
-  green: "#66BF3C",
+  orange: "#FEA503",
+  gold: "#FFDF06",
+  green: "#08C05D",
   seafoam: "#37D5D3",
-  purple: "#6F2CAC",
+  purple: "#8C42FF",
   ultraviolet: "#2A0481",
 
   // Monochrome
   lightest: "#FFFFFF",
-  lighter: "#F8F8F8",
-  light: "#F3F3F3",
-  mediumlight: "#EEEEEE",
-  medium: "#DDDDDD",
-  mediumdark: "#999999",
-  dark: "#666666",
-  darker: "#444444",
-  darkest: "#333333",
+  lighter: "#F5F8FA",
+  light: "#EBEEF3",
+  mediumlight: "#DBE3E9",
+  medium: "#CAD6E0",
+  mediumdark: "#909EAE",
+  dark: "#5F6E80",
+  darker: "#313B51",
+  darkest: "#181F31",
 
   border: "rgba(0,0,0,.1)",
 
   // Status
-  positive: "#66BF3C",
-  negative: "#FF4400",
-  warning: "#E69D00"
+  positive: "#08C05D",
+  negative: "#DD002B",
+  warning: "#FEA503"
 };
 
 export const spacing = {
