@@ -2,6 +2,6 @@
 
 - Created first version of the design system, with `Avatar`, `Badge`, `Button`, `Icon` and `Link` components.
 
-#### Authors: 2
+#### Authors: 1
 
 - Brian Glover ([@bglovgrrr](https://github.com/bglovgrrr/))
