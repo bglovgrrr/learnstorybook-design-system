@@ -1,0 +1,33 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Scales|Using" />
+
+## Using Scales
+
+A short guide to Scales, a robust CSS & Pattern library for rapidly building a Portal experience.
+
+### Goals
+
+Scales is built with a unified goal: We should be writing as little CSS as possible. To achieve this goal, the Scales team has created a robust set of reusable components. These include components like buttons, tables, and form elements.
+
+We’ve also created a powerful set of atomic classes that can be chained together to create just about any layout without writing a single line of new CSS. Further, these atomic classes can be used as modifiers of pre-existing components.
+
+### How to best Use Scales
+
+In order to use Scales, let’s consider the design you’d like to implement.
+
+**My design uses existing components**
+
+Identify if the design you’re implementing uses any existing components. Great, it does? Grab the markup from that component’s example page and paste that into your view.
+
+**My design uses existing components but has some special cases.**
+
+e.g. background colors, border, font sizes. Awesome, copy the component’s example markup to your view and add a atomic class to override its styling. Practically, this will likely just be adding something like an .col-12 to a button, or hiding something temporarily with .d-none.
+
+**My design uses a new pattern that doesn’t have a component yet.**
+
+No worries, let’s build your view by assembling some atomic classes. If you’re doing this more than once, you should help us identify a new pattern by requesting a new component.
+
+**My design is super special and…**
+
+I’m going to write a lot of custom CSS from scratch in its own .less file that I’ve included in the bundle. You probably shouldn’t be doing this. With atomic classes, you can build most of what you’re attempting to do without writing a single new line of CSS. The Scales team would prefer you use these pre-existing classes to build new UI. Every line of CSS you write, the more CSS we have to maintain, the more our users have to download, and the more bytes we have to host.
